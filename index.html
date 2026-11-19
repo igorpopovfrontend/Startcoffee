@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Startcoffee</title>
+</head>
+<body>
+  <header class="header_container">
+    <div>
+      <h1 class="h1">Startcoffee</h1>
+    </div>
+    <nav class="nav_links">
+      <ul>
+        <li><a href="#menu">Меню</a></li>
+        <li><a href="#reviews">Отзывы</a></li>
+        <li><a href="#about">О нас</a></li>
+      </ul>
+    </nav>
+    <button><a href="#menu">Меню</a></button>
+  </header>
+  <main>
+    <section class="hero_container"  id="about">
+      <div class="hero_div">
+        <h2>Startcoffee<em> Лучшая </em>кофейня на набержной</h2>
+        <p>Мы открыли нашу кофейню в 2026 году в сентябре новейшее оборудывание которое делает кофе и професиональные баристы мы ждем вас в нашей кофейне с "9-00" по "21-00"</p>
+        <div class="button_hero">
+        <button id="#">Меню</button>
+        <button id="#">Забронировать стол</button>
+        </div>
+      </div>
+      <div class="imgs">
+        <img class="img" src="images/1.jpg" alt="Набержная">
+      </div>
+    </section>
+    <section class="hero_menu" id="menu">
+      <div class="menu">
+      <h2>Наше Меню</h2>
+      <p>Попробуйте <em>Настоящие</em> Кофе</p>
+      </div>
+      <div class="hero_card">
+      <div class="card">
+        <h3>Americano</h3>
+        <p>Бодрящий и Твердый</p>
+        <span>179 рублей</span>
+        <img class="img_card" src="images/2.jpg" alt="американо">
+      </div>
+      <div class="card">
+        <h3>Капучино</h3>
+        <p>Не сменная Классика</p>
+        <span>199 рублей</span>
+        <img class="img_card" src="images/3.jpg" alt="американо">
+      </div>
+      <div class="card">
+        <h3>Раф</h3>
+        <p>Нежный и Ароматный</p>
+        <span>249 рублей</span>
+        <img class="img_card" src="images/4.jpg" alt="американо">
+      </div>
+      </div>
+    </section>
+    <section class="hero_reviews" id="reviews"> 
+      <div>
+        <h2>Вот что говорят наши посетители</h2>
+      </div>
+      <div class="card_reviews_container">
+<div class="card_reviews">
+  <h3><em class="em_reviews">Мария</em></h3>
+  <p>Зашла,заказала раф и вышла на терассу виды просто замораживают и кофе наивкуснейший всем советую <span class="span_reviews">*★★★★★*</span></p>
+</div>
+<div class="card_reviews">
+  <h3><em class="em_reviews">Арсений</em></h3>
+  <p>Один раз зашел,теперь каждый день перед работой встаю пораньше ради вашего кофе <span class="span_reviews">*★★★★★*</span></p>
+</div>
+<div class="card_reviews">
+  <h3><em class="em_reviews">Демид</em></h3>
+  <p>Пришел с девушкой, она сказала что это лучшее свидание в ее жизни <span class="span_reviews">*★★★★★*</span></p>
+</div>
+</div>
+    </section>
+    <section class="form_section">
+      <div>
+      <h2>Сделай Предзаказ</h2>
+      </div>
+      <div>
+        <form action="" id="coffee-form">
+          <label for="name">Ваше Имя</label>
+          <input type="text" id="name">
+
+          <label for="tel">Ваш Телефон</label>
+           <input type="tel" id="tel">
+
+           <label for="comment">Пожелания</label>
+          <textarea id="comment"></textarea>
+
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer_container">
+    <div class="footer_p">
+<p>© 2026 Startcoffee</p>
+<p>Телефон:+7 903 204 56 65 Адрес:Нижний Тагил,Набержная,7</p>
+</div>
+  </footer>
+</body>
+<script src="script.js"></script>
+</html>
