@@ -46,12 +46,17 @@ h1, h2, h3 {
   height: 40px;
   width: 100px;
   border-radius: 8px;
-  border: none;
+  border: none;           
+  outline: none;          
   background-color: #c08b5c;
   color: #2e241f;
   font-size: 14px;
   font-family: 'Inter', sans-serif;
+  text-decoration: none;  
+  display: inline-block;  
   transition: 0.3s;
+  text-align: center;     
+  line-height: 40px;      
 }
 .btn:hover {
   background-color: #8b5e3c;
@@ -75,28 +80,6 @@ padding: 20px;
 }
 .hero_div p {
   font-size: 25px
-}
-.button_hero{
-display: flex;
-justify-content: center;
-flex-direction: column;
-gap: 15px;
-margin-top: 30px;
-}
-.button_hero button{
-  width: 250px;
-  height: 70px;
-  background-color: #c08b5c;
-  border: none;
-  border-radius: 8px;
-  font-size: 14px;
-  font-family: 'Inter', sans-serif;
-  color: #2e241f;
-  transition: 0.3s;
-  width: 100%;
-}
-.button_hero button:hover {
-  background-color: #8b5e3c;
 }
 em {
  font-style: italic;
